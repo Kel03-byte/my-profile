@@ -15,6 +15,10 @@ I made the decision to create two, a mock up of the website that was used as the
 
 Mock Up: https://kel03-byte.github.io/lernantino-profile/
 GitHub: https://github.com/Kel03-byte/lernantino-profile
+![image](https://user-images.githubusercontent.com/74966801/111184611-153c9500-85ec-11eb-9cf8-ab8f580f1999.png)
+
+
 
 My Own: https://kel03-byte.github.io/my-profile/
 GitHub: https://github.com/Kel03-byte/my-profile
+![image](https://user-images.githubusercontent.com/74966801/111184464-f8a05d00-85eb-11eb-8908-4300012bde0b.png)

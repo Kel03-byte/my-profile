@@ -1,0 +1,374 @@
+* {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    width: 100%;
+    color: black;
+}
+
+main {
+    background-image: linear-gradient(#ff8a00, #e52e71);
+    background-image: linear-gradient(to right, violet, rgb(241, 65, 65), purple);
+    background-image: linear-gradient(40deg, rgb(255 0 0) 40%, rgb(0, 255, 234));
+}
+
+/*--Main Header Section--*/
+header {
+    overflow: hidden;
+    padding: 10px 10px;
+    background-color: rgb(0, 255, 234);
+}
+
+header a {
+    display: block;
+    float: none;
+    text-align: left;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+header a.title{
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    background-image: url(./image1.jpg);
+    background-size: cover;
+    height: 100px;
+    color: rgb(241, 65, 65);
+    padding-top: 40px;
+    width: 100%;
+}
+
+.header-right {
+    float: none;
+    display: inline-flex;
+    width: 400px;
+    padding: 10px;
+}
+
+/*--Main Body Section--*/
+.grid {
+    display: inline-block;
+    }
+
+/*-- Subsection Title Section--*/
+#header1 {
+    font-size: 30px;
+    border-bottom: solid 5px; 
+    width: 90%;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 5px;
+}
+
+#header2 {
+    font-size: 30px;
+    border-bottom: solid 5px;
+    width: 90%;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 5px;
+}
+
+#header3 {
+    font-size: 30px;
+    border-bottom: solid 5px;
+    width: 95%;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 5px;
+}
+
+/*--Main Content Section--*/
+#about-me {
+    line-height: 2;
+    font-size: 14px;
+    width: 380px;
+    margin: 20px;
+}
+
+/*--Application Subsection--*/
+#app1 {
+    background-image: url(./image2.jpg);
+    background-size: cover;
+    display: inline-block;
+    width: 350px;
+    height: 150px;
+    position: relative;
+    margin: 20px;
+    border: solid 5px palevioletred;
+    border-radius: 10%;
+}
+
+#app2 {
+    background-image: url(./image3.jpg);
+    background-size: cover;
+    display: inline-block;
+    width: 350px;
+    height: 150px;
+    position: relative;
+    margin: 20px;
+    border: solid 5px palevioletred;
+    border-radius: 10%;
+}
+
+#app3 {
+    background-image: url(./image4.jpg);
+    background-size: cover;
+    display: inline-block;
+    width: 350px;
+    height: 150px;
+    position: relative;
+    margin: 20px;
+    border: solid 5px palevioletred;
+    border-radius: 10%;
+}
+
+#app4 {
+    background-image: url(./image5.jpg);
+    background-size: cover;
+    display: inline-block;
+    width: 350px;
+    height: 150px;
+    position: relative;
+    margin: 20px;
+    border: solid 5px palevioletred;
+    border-radius: 10%;
+}
+
+#app5 {
+    background-image: url(./image6.jpg);
+    background-size: cover;
+    display: inline-block;
+    width: 350px;
+    height: 150px;
+    position: relative;
+    margin: 20px;
+    border: solid 5px palevioletred;
+    border-radius: 10%;
+}
+
+#app-title {    
+    background-color: palevioletred;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#app-card {
+    position: absolute;
+    display: block;
+    font-size: 16px;
+    background-color:palevioletred;
+    width: fit-content;
+    top: 90px;
+    text-decoration: none;
+}
+
+#app-card1 {
+    position: absolute;
+    display: block;
+    font-size: 16px;
+    background-color:palevioletred;
+    width: fit-content;
+    top: 90px;
+    text-decoration: none;
+}
+
+/*--Contact Info Section--*/
+#contact a {
+    display: block;
+    line-height: 2;
+    text-decoration: underline;
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+    width: 380px;
+}
+
+/*--Hover Effect Section--*/
+.hover:hover {
+  box-shadow: inset 70px 70px 70px gray;
+}
+
+/*--Footer Section--*/
+footer {
+    display: block;
+    width: fit-content;
+    margin: 10px;
+    font-size: smaller;
+}
+
+/*--Resizing for Tablets Section--*/
+@media screen and (min-width: 768px){
+
+header a.title {
+    text-align: center;
+    font-size: 80px;
+}
+header a {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.header-right {
+    float: right;
+    display: inline-flex;
+}
+
+#about-me {
+    width: 730px;
+}
+
+#app1 {
+    width: 700px;
+    height: 400px;
+}
+
+#app2 {
+    width: 320px;
+}
+
+#app3 {
+    width: 320px;
+}
+
+#app4 {
+    width: 320px;
+}
+
+#app5 {
+    width: 320px;
+}
+
+#contact {
+display: flex;
+justify-content: space-between;
+align-self: center;
+}
+}
+
+/*--Resizing for Computer Screens Section--*/
+@media screen and (min-width: 992px){
+
+header a.title {
+    text-align: left;
+}
+
+.subtitle a {
+    float: right;
+    margin-top: 45px;
+    width: fit-content;
+    margin-right: 30px;
+}
+
+#header1 {
+    grid-area: header1;
+    font-size: 60px;
+    justify-self: right;
+    border-right: solid 3px rgb(68, 88, 118);
+    text-align: right;
+    padding-right: 20px;
+    border-bottom: none;
+}
+
+#header2 {
+    grid-area: header2;
+    font-size: 60px;
+    justify-self: right;
+    border-right: solid 3px rgb(68, 88, 118);
+    text-align: right;
+    padding-right: 20px;
+    border-bottom: none;
+}
+
+#header3 {
+  grid-area: header3;
+  font-size: 60px;
+  justify-self: right;
+  border-right: solid 3px rgb(68, 88, 118);
+  text-align: right;
+  padding-right: 20px;
+  border-bottom: none;
+}
+
+#about-me {
+    grid-area: about-me;
+    justify-self: self-start;
+    padding-left: 20px;
+    line-height: 2;
+    width: 850px;
+}
+
+#app1 {
+    grid-area: app1;
+    position: relative;
+    width: 900px;
+    height:600px;
+}
+
+#app2 {
+    grid-area: app2;
+    position: relative;
+    width:415px;
+    height: 150px;
+}
+
+#app3 {
+    grid-area: app3;
+    position: relative;
+    width:415px;
+    height: 150px;
+}
+
+#app4 {
+    grid-area: app4;
+    position: relative;
+    width:415px;
+    height: 150px;
+}
+
+#app5 {
+    grid-area: app5;
+    position: relative;
+    width:415px;
+    height: 150px;
+}
+
+#contact { 
+    grid-area: contact;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    width: 850px;
+    height:60px;
+}
+
+#contact a{
+    font-size: 20px;
+}
+
+.grid {
+    display: grid;
+    padding: 20px;
+    column-gap: 20px;
+    row-gap: 10px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-areas: 
+    "header1 about-me about-me"
+    "header1 about-me about-me"
+    "header2 app1 app1"
+    "header2 app2 app3"
+    "header2 app4 app5"
+    "header3 contact contact"
+}
+}

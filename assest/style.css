@@ -95,6 +95,11 @@ header a.title{
     margin: 20px;
 }
 
+img {
+    width:380px;
+    height: 500px;
+}
+
 /*--Application Subsection--*/
 #app1 {
     background-image: url(./image2.jpg);
@@ -306,6 +311,12 @@ header a.title {
     padding-left: 20px;
     line-height: 2;
     width: 850px;
+}
+
+img {
+    margin-left: 200px;
+    padding: 10px;
+
 }
 
 #app1 {

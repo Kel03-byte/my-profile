@@ -36,7 +36,7 @@ header a.title{
     font-size: 60px;
     font-weight: bold;
     text-align: center;
-    background-image: url(./image1.jpg);
+    background-image: url(./assest/images/image1.jpg);
     background-size: cover;
     height: 100px;
     color: rgb(241, 65, 65);
@@ -102,7 +102,7 @@ img {
 
 /*--Application Subsection--*/
 #app1 {
-    background-image: url(./image2.jpg);
+    background-image: url(./assest/images/image2.png);
     background-size: cover;
     display: inline-block;
     width: 350px;
@@ -114,7 +114,7 @@ img {
 }
 
 #app2 {
-    background-image: url(./image3.jpg);
+    background-image: url(./assest/images/image3.png);
     background-size: cover;
     display: inline-block;
     width: 350px;
@@ -126,7 +126,7 @@ img {
 }
 
 #app3 {
-    background-image: url(./image4.jpg);
+    background-image: url(./assest/images/image4.png);
     background-size: cover;
     display: inline-block;
     width: 350px;
@@ -138,7 +138,7 @@ img {
 }
 
 #app4 {
-    background-image: url(./image5.jpg);
+    background-image: url(./assest/images/image5.png);
     background-size: cover;
     display: inline-block;
     width: 350px;
@@ -150,7 +150,7 @@ img {
 }
 
 #app5 {
-    background-image: url(./image6.jpg);
+    background-image: url(./assest/images/image6.png);
     background-size: cover;
     display: inline-block;
     width: 350px;

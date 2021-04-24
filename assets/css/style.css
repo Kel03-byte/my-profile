@@ -1,0 +1,13 @@
+.app {
+    background-size: cover;
+    width: 200px;
+    height: 300px;
+}
+
+#app-title {
+    font-size: 12px;
+}
+
+#app-text {
+    font-size: 8px;
+}

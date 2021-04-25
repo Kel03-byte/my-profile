@@ -12,106 +12,133 @@
 </head>
 
 <!--*Heading Section*-->
-
-<body>
-
+<header>
     <section class="hero is-small">
         <div class="hero-body">
-            <div class="title is-1 has-text-centered-mobile">KELLIE RYAN</div>
-            <img class="image is-128x128" src="assets/images/headshot.JPG" alt="Headshot of a lady">
-            <nav class="breadcrumb has-succeeds-separator is-right" aria-label="breadcrumbs">
+            <div class="title is-1 is has-text-centered has-text-white">KELLIE RYAN</div>
+            <img class="image is-128x128" id="headshot" src="assets/images/headshot.JPG" alt="Headshot of a lady">
+            <nav class="breadcrumb is-medium has-bullet-separator is-centered" aria-label="breadcrumbs">
                 <ul>
-                    <li><a href="assets/resume/resume.pdf">Resume</a></li>
-                    <li><a href="#header1">About</a></li>
-                    <li><a href="#header2">Work</a></li>
-                    <li><a href="#header3">Contact</a></li>
+                    <li><a class="has-text-white" id="nav-text" href="assets/resume/resume.pdf">Resume</a></li>
+                    <li><a class="has-text-white" id="nav-text" href="#header1">About</a></li>
+                    <li><a class="has-text-white" id="nav-text" href="#header2">Work</a></li>
+                    <li><a class="has-text-white" id="nav-text" href="#header3">Contact Me</a></li>
                 </ul>
             </nav>
         </div>
     </section>
+</header>
 
-    <!--*Main Content Section*-->
-    <section class="columns">
+<!--*Main Content Section*-->
 
-        <!--*About Me Section*-->
-        <section>
-            <div class="column title is-3" id="header1">About Me</div>
+<body>
 
-            <div class="column" id="about-me">
-                <p>
-                    Hi I am a current UWA Coding Bootcamp student and amd enjoying the tough challenges that I have been
-                    doing so far. I am also a full time
-                    worker at the Airport for a car rental company. I have always been interested in tech and gaming and
-                    finally have the opportunity
-                    to learn more about the process behind some of my favourite games and tech. The links below are to
-                    some
-                    of my work at UWA.
-                </p>
+    <!--*About Me Section*-->
+    <article>
+        <div class="title is-3 has-text-centered has-text-white" id="header1">About Me</div>
 
-            </div>
-        </section>
-<img src="/assets/images/image2.png">
-        <!--*Links to Work Section*-->
-        <section>
-            <div class="column title is-3" id="header2">Work</div>
+        <div class="has-text-white" id="about-me">
+            <p>
+                Hi I am a current UWA Coding Bootcamp student and amd enjoying
+                the tough challenges that I have been doing so far. I am also a
+                full time worker at the Airport for a car rental company. I have
+                always been interested in tech and gaming and finally have the
+                opportunity to learn more about the process behind some of my favourite
+                games and tech. The links below are to
+                some of my work at UWA.
+            </p>
 
-            <div class="column">
-                <div class="app app1" href="https://kel03-byte.github.io/go-the-distance-project/">
-                    <a id="app-title">Go The Distance Holiday Budget App!</a>
-                    <a id="app-text">Javascript/JQuery/Bulma/HTML/CSS</a>
-                </div>
-
-                <div class="app app2">
-                    <a href="https://kel03-byte.github.io/day-planner/">
-                        <a class="title is-4">9 To 5 Day Planner</a>
-                        <a class="subtitle is-6">Bootstrap/JQuery/CSS/HTML/Javascript</a>
-                        <img id="app-image" src="./assets/images/image3.png">
-                    </a>
-                </div>
-
-                <div class="app app3">
-                    <a href="https://kel03-byte.github.io/Javascript-Quiz/">
-                        <a class="title is-4">Javascript Quiz</a>
-                        <a class="subtitle is-6">JavaScript/CSS/HTML</a>
-                        <img id="app-image" src="./assets/images/image4.png">
-                </div>
-
-                <div class="app app4" class="hover">
-                    <a href="https://kel03-byte.github.io/weather-dashboard/" id="app-card">
-                        <a class="title is-4">Weather Forecast</a>
-                        <a class="subtitle is-6">OpenWeather/Moments/JavaScript/CSS/HTML</a>
-                        <img id="app-image" src="./assets/images/image5.png">
-                </div>
-
-                <div class="app app5">
-                    <a href="https://scratch.mit.edu/projects/458711196/" id="app-card">
-
-                        <a class="title is-4">Hunting Mice!</a>
-                        <a class="subtitle is-6">Scratch Project</a>
-                        <img id="app-image" src="./assets/images/image6.png">
-                </div>
-            </div>
-        </section>
-
-        <!--*Contact Info Section*-->
-        <section>
-            <div class="column title is-3" id="header3">Contact Me
-        </section>
-
-        <div class="column" id="contact">
-            <a href="mailto:littlekel03@gmail.com">Email</a>
-            <a href="https://github.com/Kel03-byte">GitHub</a>
-            <a href="https://www.linkedin.com/in/kellie-ryan-03">LinkedIn</a>
         </div>
-    </section>
+    </article>
+
+    <!--*Links to Work Section*-->
+    <section>
+        <div class="title is-3 has-text-centered has-text-white" id="header2">Work</div>
+        <div class="columns">
+
+            <div class="column is-full-tablet ">
+                <article class=" notification hover" id="app1">
+                    <a href="https://kel03-byte.github.io/go-the-distance-project/">
+                        <p class="title is-5">Go The Distance Holiday Budget App!</p>
+                        <p class="subtitle is-6">Javascript/JQuery/Bulma/HTML/CSS</p>
+                        <figure class="image is-square">
+                            <img src="./assets/images/image2.png">
+                        </figure>
+                    </a>
+                </article>
+
+                <div class="columns is-half-tablet .is-variable is-6">
+                    <div class="column">
+                        <article class="notification hover" id="app2">
+                            <a href="https://kel03-byte.github.io/day-planner/">
+                                <p class="title is-5">9 To 5 Day Planner</p>
+                                <p class="subtitle is-6">Bootstrap/JQuery/CSS/HTML/Javascript</p>
+                                <figure class="image is-square">
+                                    <img src="./assets/images/image3.png">
+                                </figure>
+                            </a>
+                        </article>
+                    </div>
+
+                    <div class="column">
+                        <article class="notification hover" id="app2">
+                            <a href="https://kel03-byte.github.io/Javascript-Quiz/">
+                                <p class="title is-5">Javascript Quiz</p>
+                                <p class="subtitle is-6">JavaScript/CSS/HTML</p>
+                                <figure class="image is-square">
+                                    <img src="./assets/images/image4.png">
+                                </figure>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="columns is-half-tablet">
+                    <div class="column">
+                        <article class="notification hover" id="app2">
+                            <a href="https://kel03-byte.github.io/weather-dashboard/">
+                                <p class="title is-5">Weather Forecast</p>
+                                <p class="subtitle is-6">OpenWeather/Moments/JavaScript/CSS/HTML</p>
+                                <figure class="image is-square">
+                                    <img src="./assets/images/image5.png">
+                                </figure>
+                            </a>
+                        </article>
+                    </div>
+
+                    <div class="column">
+                        <article class="notification hover" id="app2">
+                            <a href="https://scratch.mit.edu/projects/458711196/">
+                                <p class="title is-5">Hunting Mice!</p>
+                                <p class="subtitle is-6">Scratch Project</p>
+                                <figure class="image is-square">
+                                    <img src="./assets/images/image6.png">
+                                </figure>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </section>
+
+    <!--*Contact Info Section*-->
+    <div class="title is-3 has-text-centered has-text-white" id="header3">Contact Me</div>
+    <nav class="breadcrumb has-succeeds-separator is-centered is-medium" aria-label="breadcrumbs">
+        <ul id="contact">
+            <li><a class="has-text-white" id="nav-text" href="mailto:littlekel03@gmail.com">Email</a></li>
+            <li><a class="has-text-white" id="nav-text" href="https://github.com/Kel03-byte">GitHub</a></li>
+            <li><a class="has-text-white" id="nav-text" href="https://www.linkedin.com/in/kellie-ryan-03">LinkedIn</a></li>
+        </ul>
+    </nav>
+
 </body>
 
 <!--*Footer Section*-->
 <footer>
-    <h4>
-        Made by Kellie "adopt, don't shop"
+    <h4 class="has-text-white">
+        Made by Kellie "adopt, don't shop" @2021
     </h4>
 </footer>
 

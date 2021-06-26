@@ -4,10 +4,8 @@
 }
 
 body {
-    background-image: url(../images/image1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/image1.jpg);
     background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
 }
 
 #headshot {

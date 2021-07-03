@@ -48,10 +48,23 @@ body {
     background-color: white;
 }
 
-.hover:hover {
-    box-shadow: inset 70px 70px 70px rgb(216, 248, 71); 
+#nav-text {
+    color: white;
+    padding: 5px;
 }
 
 #nav-text:hover {
-    color: white;
+    box-shadow: inset 70px 70px 70px rgb(248, 121, 71);
+    border-radius: 20px;
+}
+
+#link-text {
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#link-text:hover {
+    box-shadow: inset 70px 70px 70px rgb(248, 121, 71);
+    border-radius: 20px;
 }

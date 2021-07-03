@@ -23,6 +23,11 @@ body {
     margin-top: 40px;
 }
 
+#header4 {
+    margin-top: 40px;
+    color: white;
+}
+
 #about-me {
     display: block;
     margin-left: auto;
@@ -67,4 +72,18 @@ body {
 #link-text:hover {
     box-shadow: inset 70px 70px 70px rgb(248, 121, 71);
     border-radius: 20px;
+}
+
+#summary-text {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#tech-text {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+#icon {
+    font-size: 100px;
 }
